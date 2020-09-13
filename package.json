@@ -5,9 +5,16 @@
   "repository": "https://github.com/RobertShaw1/firebase-auth.git",
   "author": "Robert Shaw <r.shaw1@yahoo.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js  index.js"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "firebase": "^7.20.0"
+    "fastify": "^3.3.0",
+    "fastify-formbody": "^5.0.0",
+    "fastify-static": "^3.2.0",
+    "firebase": "^7.20.0",
+    "make-promises-safe": "^5.1.0"
   },
   "devDependencies": {
     "eslint-config-prettier": "^6.11.0",
