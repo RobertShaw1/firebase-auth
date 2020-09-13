@@ -1,0 +1,20 @@
+{
+  "name": "firebase-auth",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/RobertShaw1/firebase-auth.git",
+  "author": "Robert Shaw <r.shaw1@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "firebase": "^7.20.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.4",
+    "prettier": "2.1.1"
+  }
+}
