@@ -14,7 +14,7 @@ fastify.register(require('fastify-static'), {
 fastify.register(require('fastify-formbody'))
 
 const options = {
-  prefix: '/auth',
+  prefix: '/auth/',
 }
 
 const routes = require('./routes')
